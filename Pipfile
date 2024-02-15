@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+matplotlib = "*"
+numpy = "==1.26.0"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+
+
+[requires]
+python_version = "3.10"
